@@ -8,6 +8,8 @@ body{
   min-height: 100vh;
   display: grid;
   place-content: center;
+  background-color: black;
+  color:red;
   
 
 }
@@ -16,6 +18,8 @@ body{
   border:2px solid red;
   text-align: center;
   padding:30px;
+  border-radius: 3px;
+  box-shadow: 2px 2px gray;
  
 }
 
@@ -24,4 +28,7 @@ button{
   cursor: pointer;
   color: red;
   background-color: black;
+}
+p{
+  font-size: 40px;
 }

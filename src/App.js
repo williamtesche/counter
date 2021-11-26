@@ -1,5 +1,4 @@
 import './App.css';
-import './App.css';
 import { useState } from 'react';
 import Counter from './component/Contador.js'
 
@@ -26,7 +25,7 @@ export default function App() {
      <button onClick={mais}>mais</button>
      <button onClick={reset}>reset</button>
      <button onClick={menos}>menos</button> 
-     <div className="inner-Container2">
+     <div>
      <Counter />
      </div>
     
