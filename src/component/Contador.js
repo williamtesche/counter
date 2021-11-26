@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 
  export default function Counter(){
@@ -20,7 +19,7 @@ import { useState } from 'react';
     }
     return(
         <>
-        <h1>Counter</h1>
+        <h1 className="titulo">Counter</h1>
 
         <p>{numero}</p>
         <button onClick={sobe}>sobe</button>

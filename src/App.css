@@ -14,12 +14,22 @@ body{
 
 }
 
+h1{
+  text-shadow: 1px 2px gray;
+  margin: 16px;
+}
+
+.titulo{
+  margin: 16px;
+}
+
 .Container{
   border:2px solid red;
   text-align: center;
   padding:30px;
   border-radius: 3px;
   box-shadow: 2px 2px gray;
+  
  
 }
 
@@ -28,7 +38,17 @@ button{
   cursor: pointer;
   color: red;
   background-color: black;
+  padding: 10px;
+  margin: 0 5px;
 }
+button:hover{
+  background-color: red;
+  color:black;
+  transition: 1s;
+}
+
+
+
 p{
   font-size: 40px;
 }
